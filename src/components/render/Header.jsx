@@ -5,7 +5,7 @@ import { SteamLogin } from './SteamLogin'
 
 import { navSelectedPage } from '../../utility/common'
 
-export const Header = ({ user }) => 
+export const Header = ({ user }) =>
     <header>
       <Link className='title' to='/'>
         <img className='header-icon' src='/img/naezith-icon.png' title={'naezith'} alt={'naezith'} />
@@ -15,7 +15,7 @@ export const Header = ({ user }) =>
         <li><Link className={navSelectedPage('/global-rankings', true)} to='/global-rankings'>Global Rankings</Link></li>
         <li><Link className={navSelectedPage('/world-records')} to='/world-records'>World Records</Link></li>
         <li><Link className={navSelectedPage('/players')} to='/players'>Search Players</Link></li>
+        <li><Link className={navSelectedPage('/players')} to='/players'>Compare players</Link></li>
       </ul>
       <SteamLogin user={user}/>
     </header>
-    
