@@ -11,7 +11,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 0.875em;
 	color: rgb(255, 253, 248);
-    background: url('/img/bg.png') no-repeat center center fixed; 
+    background: url('/img/bg.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -103,7 +103,7 @@ header li, footer li {
 }
 
 .footer-links .logout a {
-    padding-right: 1em; 
+    padding-right: 1em;
 }
 
 header li a, footer li a {
@@ -123,13 +123,13 @@ a:hover {
 	color: rgb(255, 253, 234);
 }
 
-main {    
+main {
     min-height: calc(100% - 2.75em - 35px);
     min-height: -o-calc(100% - 2.75em - 35px);
     min-height: -moz-calc(100% - 2.75em - 35px);
     min-height: -webkit-calc(100% - 2.75em - 35px);
-    padding: 2.75em 0 35px 0; 
-	margin: 0 auto -35px auto;
+    padding: 2.75em 0 35px 0;
+	  margin: 0 auto -35px auto;
     text-align: center;
     text-align: -o-center;
     text-align: -moz-center;
@@ -148,7 +148,7 @@ main h1 {
 
 main h2 {
   font-size: 1.5em;
-} 
+}
 
 table {
 	background: rgba(20, 20, 20, .8);
@@ -211,7 +211,7 @@ td img {
 
 .steam-icon {
     height: 1.5em;
-	transition: filter .3s ease;
+	  transition: filter .3s ease;
 }
 
 .steam-icon:hover {
@@ -253,7 +253,7 @@ td img {
 
 /* Footer at far bottom */
 .content:after {
-	height: 35px; 
+	height: 35px;
 }
 
 .content:after {
@@ -281,13 +281,13 @@ td img {
     text-align: center;
     border-radius: 0.125em;
     white-space:nowrap;
-	
+
 	/* Position */
     position: absolute;
-	z-index: 1;
+  	z-index: 1;
     bottom: 100%;
-	margin-bottom: 0.25em;
-	padding: 0em 0em;
+  	margin-bottom: 0.25em;
+  	padding: 0em 0em;
     left: 50%;
     max-width:none;
     transform: translateX(-50%);
@@ -306,9 +306,9 @@ td img {
 
 button {
     display: inline-block;
-	border: none;
-	width: 6em;
-	margin-right: 0.4em;
+  	border: none;
+  	width: 6em;
+  	margin-right: 0.4em;
     padding: 0.25em 1em;
     text-decoration: none;
     background: rgb(92, 92, 92);
@@ -317,11 +317,11 @@ button {
     font-size: 1em;
     cursor: pointer;
     text-align: center;
-    transition: background 60ms ease-in-out, 
+    transition: background 60ms ease-in-out,
                 transform 32ms ease;
     -webkit-appearance: none;
-	-moz-appearance: none;
-	
+	  -moz-appearance: none;
+
 	border-radius: 4px;
 }
 
@@ -375,44 +375,44 @@ input {
     margin: 100px auto;
     height: 5em;
   }
-  
+
   .spinner > div {
     background-color: #fff;
     height: 100%;
     width: 0.3em;
     margin-left: 0.4em;
     display: inline-block;
-    
+
     -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
     animation: sk-stretchdelay 1.2s infinite ease-in-out;
   }
-  
+
   .spinner .rect2 {
     -webkit-animation-delay: -1.1s;
     animation-delay: -1.1s;
   }
-  
+
   .spinner .rect3 {
     -webkit-animation-delay: -1.0s;
     animation-delay: -1.0s;
   }
-  
+
   .spinner .rect4 {
     -webkit-animation-delay: -0.9s;
     animation-delay: -0.9s;
   }
-  
+
   .spinner .rect5 {
     -webkit-animation-delay: -0.8s;
     animation-delay: -0.8s;
   }
-  
+
   @-webkit-keyframes sk-stretchdelay {
-    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
     20% { -webkit-transform: scaleY(1.0) }
   }
-  
+
   @keyframes sk-stretchdelay {
-    0%, 40%, 100% { transform: scaleY(0.4); -webkit-transform: scaleY(0.4); }  
+    0%, 40%, 100% { transform: scaleY(0.4); -webkit-transform: scaleY(0.4); }
     20% { transform: scaleY(1.0); -webkit-transform: scaleY(1.0); }
   }

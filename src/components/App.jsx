@@ -7,6 +7,7 @@ import { Footer } from './render/Footer'
 import GlobalRankingsPage from './pages/GlobalRankingsPage'
 import PlayerProfilePage from './pages/PlayerProfilePage'
 import PlayersPage from './pages/PlayersPage'
+import PlayerComparisonPage from './pages/PlayerComparisonPage'
 import LevelPage from './pages/LevelPage'
 import WorldRecordsPage from './pages/WorldRecordsPage'
 import SteamLoginHandler from './SteamLoginHandler'
@@ -18,7 +19,7 @@ export default class App extends Component {
     super()
 
     var cachedUser = JSON.parse(localStorage.getItem('user'))
-    this.state = { user: cachedUser === null ? undefined : cachedUser } 
+    this.state = { user: cachedUser === null ? undefined : cachedUser }
 
     this.setUser = this.setUser.bind(this)
   }
@@ -27,7 +28,7 @@ export default class App extends Component {
     this.setState({user})
     localStorage.setItem('user', JSON.stringify(user))
   }
-  
+
   render = () => (
     <Router>
         <div className='router-div'>
@@ -40,7 +41,7 @@ export default class App extends Component {
               <Route path='/players' component={PlayersPage}/>
               <Route path='/level/:level_id' component={LevelPage}/>
               <Route path='/player/:player_id' component={PlayerProfilePage}/>
-              
+              <Route path='/compare-players' component={PlayerComparisonPage}/>
               <Route exact path='/steam' component={SteamLoginHandler}/>
               <Route path='/steam/:user' render={(routeProps) => (
                       <SteamLoginHandler {...routeProps} setUser={this.setUser} />)} />
