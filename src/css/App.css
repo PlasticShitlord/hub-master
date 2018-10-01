@@ -7,10 +7,10 @@ header, main, footer {
 }
 
 body {
-	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 0.875em;
-	color: rgb(255, 253, 248);
+  	margin: 0;
+  	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 0.875em;
+  	color: rgb(255, 253, 248);
     background: url('/img/bg.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -52,13 +52,13 @@ footer {
 header, footer {
     display: table;
     background-color: #333;
-	font-size: .9em;
-	z-index: 10;
+    	font-size: .9em;
+    	z-index: 10;
 }
 
 header img {
     max-height: 35px;
-	vertical-align: middle;
+  	vertical-align: middle;
 }
 
 header h2 {
@@ -107,7 +107,7 @@ header li, footer li {
 }
 
 header li a, footer li a {
-	display: table-cell;
+  	display: table-cell;
     vertical-align: middle;
     color: gold;
     padding: 0 0.6em 0 0.6em;
@@ -134,7 +134,7 @@ main {
     text-align: -o-center;
     text-align: -moz-center;
     text-align: -webkit-center;
-	background: rgba(20, 20, 20, .8);
+  	background: rgba(20, 20, 20, .8);
 }
 
 main:after {
@@ -151,7 +151,7 @@ main h2 {
 }
 
 table {
-	background: rgba(20, 20, 20, .8);
+  	background: rgba(20, 20, 20, .8);
     text-align: center;
     margin-top: 1em;
     width: 100%;
@@ -181,7 +181,7 @@ td {
 }
 
 td img {
-	vertical-align: middle;
+	  vertical-align: middle;
     max-height: 50px;
 }
 
@@ -322,7 +322,7 @@ button {
     -webkit-appearance: none;
 	  -moz-appearance: none;
 
-	border-radius: 4px;
+	  border-radius: 4px;
 }
 
 button:hover, button:focus {
